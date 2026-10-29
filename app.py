@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from PIL import Image, ImageOps
 from scipy import ndimage
 
-st.set_page_config(page_title="Image Processing Tutorial Lab", page_icon="🖼️", layout="wide")
+st.set_page_config(page_title="PragyanAI - Image Processing Tutorial Lab", page_icon="🖼️", layout="wide")
 
 MODULES = {
     "Basic Operations": [
@@ -352,8 +352,8 @@ def image_bytes(arr, fmt="PNG"):
     im.save(buf, format=fmt)
     return buf.getvalue()
 
-st.title("Image Processing Tutorial Laboratory")
-st.image('ele.jpg')
+st.title("PragyanAI - Image Processing Tutorial Laboratory")
+st.image("ele.jpg")
 st.caption("Upload • Explore • Adjust • Compare • Understand • Download")
 with st.sidebar:
     st.header("Learning Modules")
